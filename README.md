@@ -112,6 +112,7 @@ Both Codex and Claude Code read each skill's `name` and `description` metadata t
 | Explicit compressed communication | `caveman` *(output-skills)* |
 | Handing work to a fresh session | `handoff` |
 | Making the next run of a skill faster or more accurate | `improve-skill` |
+| Starting work on an isolated checkout | `create-worktree` |
 | Vague idea or product concept | `idea-refine` |
 | New project, feature, or significant change | `spec-driven-development` |
 | Turning a spec into tasks | `planning-and-task-breakdown` |
@@ -184,6 +185,7 @@ Both Codex and Claude Code read each skill's `name` and `description` metadata t
 
 | Skill | Purpose |
 |---|---|
+| [create-worktree](plugins/dev-skills/skills/create-worktree/SKILL.md) | Create an isolated git worktree and work inside it |
 | [git-workflow-and-versioning](plugins/dev-skills/skills/git-workflow-and-versioning/SKILL.md) | Keep commits atomic and history useful |
 | [ci-cd-and-automation](plugins/dev-skills/skills/ci-cd-and-automation/SKILL.md) | Build quality gates and release automation |
 | [deprecation-and-migration](plugins/dev-skills/skills/deprecation-and-migration/SKILL.md) | Remove or migrate systems deliberately |
